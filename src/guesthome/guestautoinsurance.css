@@ -1,0 +1,105 @@
+/* Ensure the entire viewport is utilized */
+.auto-insurance-form-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #BFBFFF;
+    /* height: 100vh; */
+    /* height: 80vh; */
+    overflow: hidden;
+    /* padding: 20px; */
+    margin: 0;
+  }
+  
+  /* Center the form container */
+  .auto-insurance-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    width: 100%;
+    overflow-y: auto; /* Enable vertical scroll if content overflows */
+    margin: 0; /* Remove default margins */
+  }
+  
+  .insurance-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .insurance-form-title {
+    color: #3D348B;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+  }
+  
+  .insurance-form-subtitle {
+    color: #3D348B;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .insurance-form-description {
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .insurance-badges {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .insurance-badge {
+    background-color: #3D348B;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+  }
+  
+  .insurance-content {
+    text-align: left;
+    width: 100%;
+    margin-top: -70px;
+
+  }
+  
+  .insurance-terms-title, .insurance-optional-riders-title {
+    color: #3D348B;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+  }
+  
+  .insurance-terms-list, .insurance-optional-riders-list {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .insurance-terms-list li, .insurance-optional-riders-list li {
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 1rem;
+  }
+  
+  .insurance-buy-now-button {
+    background-color: #3D348B;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .insurance-buy-now-button:hover {
+    background-color: #291F6D;
+  }
+  

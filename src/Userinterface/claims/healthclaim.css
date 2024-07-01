@@ -1,0 +1,140 @@
+.health-claim-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.health-claim-text {
+    position: absolute;
+    top: 80px;
+    text-align: center;
+    width: 100%;
+}
+
+.claimimg {
+    position: absolute;
+    position: absolute;
+    right: -8%;
+    height: 82%;
+    bottom: 0%;
+}
+
+.healthclaimbody {
+    background-color: #bfbfff;
+    width: 50;
+    height: 50vh;
+}
+
+#health-claim-title {
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27.72px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#health-claim-msg {
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 0.16px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.health-claim-form-level1 {
+    display: flex;
+    column-gap: 10%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 0.5rem; */
+}
+
+.health-claim-form-level2 {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 20%;
+    /* row-gap: 15%; */
+}
+
+.health-claim-form {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 68%;
+    top: 186px;
+    left: 16%;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    opacity: 0px;
+    background: #ffffff;
+    box-shadow: 10px 4px 4px 0px #9898cf;
+    padding-bottom: 2%;
+    text-align: center;
+    height: 32rem;
+    justify-content: space-evenly;
+}
+
+.health-claim-textfield {
+    border-width: 0px 0px 2px 0px;
+    border-color: #8484fc;
+    margin-top: 5%;
+    height: 20px;
+    width: 13rem;
+}
+
+.hclaimbutton {
+    font-family: Plus Jakarta Sans;
+    text-align: left;
+    color: #ffffff;
+    background: #2222e0;
+    border-radius: 5px;
+    padding-block: 8px;
+    margin-top: 10px;
+
+}
+
+.hclaimbutton:hover {
+    /* style={{ marginTop: "2%", width: "fit-content" }} */
+    background-color: white;
+    cursor: pointer;
+    color: #5353FF;
+    border: 1px solid #5353FF;
+}
+
+.hl {
+    color: #848383;
+    width: 12rem;
+}
+
+.health-claim-textarea {
+    background: #bfbfff;
+    height: 116px;
+    width: 12rem;
+    margin-top: 1rem;
+    border-width: 0px 0px 0px 0px;
+}
+
+.health-claim-fl {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    row-gap: 1rem;
+}
+
+.health-claim-but {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mandatory {
+    color: red;
+    font-size: 12px;
+    width: max-content;
+}

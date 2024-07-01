@@ -1,0 +1,69 @@
+.dash-body {
+    display: flex;
+}
+
+.left-side-div {
+    height: 100vh;
+    width: 13%;
+    background-color: #DFDFF6;
+}
+
+.right-side-div {
+    height: 23vh;
+    width: 69%;
+    background-color: #9f9ff0;
+}
+
+.open-tickets-nav {
+    margin-right: 9%;
+}
+
+.closed-tickets-nav {
+    margin-right: -2%;
+}
+
+.dashboard-nav {
+    margin-right: 21%;
+}
+
+/* Group */
+.right-side-div {
+    position: absolute;
+    left: 22.15%;
+    right: 7.99%;
+    top: 17.77%;
+    bottom: 61.72%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.tiy {
+    margin-top: 3rem;
+}
+
+.asa {
+    position: absolute;
+    left: 28rem;
+    top: 25rem;
+    background-color: #5252ce;
+    width: 20rem;
+    height: 10rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.sam {
+    margin-top: 3rem;
+}
+
+.chala {
+    position: absolute;
+    right: 15rem;
+    top: 25rem;
+    background-color: #5252ce;
+    width: 20rem;
+    height: 10rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.ana {
+    margin-top: 3rem;
+}

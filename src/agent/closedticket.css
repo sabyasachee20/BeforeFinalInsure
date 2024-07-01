@@ -1,0 +1,49 @@
+.agent-main-component {
+    background-color: #d51e1e; /* Change this color to your desired background color */
+    flex: 1; /* Take up the remaining space below the Navbar */
+    padding: 20px; /* Optional: Add some padding for better spacing */
+    height: 38.7rem;
+}
+
+.agent-page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the container takes the full viewport height */
+}
+
+.agent-main-content {
+    background-color: lightblue; /* Change this color to your desired background color */
+    flex: 1; /* Take up the remaining space below the Navbar */
+    padding: 20px; /* Optional: Add some padding for better spacing */
+}
+
+.agent-table-container {
+    width: 60%;
+    overflow-x: auto;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+
+.agent-tickets-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.agent-tickets-table th, .agent-tickets-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.agent-tickets-table th {
+    background-color: #f2f2f2;
+}
+
+.agent-tickets-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.agent-tickets-table tr:hover {
+    background-color: #ddd;
+}

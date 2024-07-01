@@ -1,0 +1,24 @@
+
+
+.body-abt {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+.abt-im {
+    width: 40%;
+    margin-top: 20px;
+}
+
+.abt-cont {
+    /* margin-left: 5%; */
+    width: 30%;
+    /* text-align: justify; */
+    font-size: 1.3rem;
+}
+.abtusp{
+    margin-top:20%;
+}

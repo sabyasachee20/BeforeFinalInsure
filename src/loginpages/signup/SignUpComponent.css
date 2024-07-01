@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .signupbody {
+    background-color: #BFBFFF; /* Added blue background */
+    min-height: 100vh; /* Ensures the background covers the full viewport height */
+  }
+  
+  .signup-top-total {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #BFBFFF;
+  }
+  
+  .signup-top-le {
+    display: flex;
+    align-items: center;
+  }
+  
+  .signup-logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  #signup-ins {
+    font-size: 24px;
+  }
+  
+  .signup-top-ri a {
+    color: #5353ff;
+    cursor: pointer;
+  }
+  
+  #signup-joinh1 {
+    text-align: center;
+    color: #000;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .signup-middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .signup-subheading {
+    font-size: 18px;
+    color: #000;
+  }
+  
+  .signup-subheading span {
+    color: #5353ff;
+  }
+  
+  .signup-form {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-top: 60px;
+    max-width: 800px;
+  }
+  
+  .signup-form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem; /* Increased margin between rows */
+  }
+ 
+  .signup-inplbl {
+    margin-right: 15px;
+    width: 47%;
+  }
+  
+  .signup-inplbl:last-child {
+    margin-right: 0; /* Remove right margin for the last item in the row */
+  }
+  
+  .signup-normalinp {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .signup-inplbldob{
+    margin-right: 15px;
+  }
+  .signup-error {
+    color: red;
+    font-size: 12px;
+    margin-top: 0.5rem;
+  }
+  
+  .signup-formsbmtbtn {
+    padding: 10px 20px;
+    background-color: #5353ff;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    margin-top: 1rem;
+    width: 30%; /* Reduced width of the button */
+    align-self: center; /* Center the button */
+  }
+  
+  .signup-error-message {
+    color: red;
+    margin-top: 1rem;
+  }
+  
+  .signup-success-message {
+    color: green;
+    margin-top: 1rem;
+  }
+  

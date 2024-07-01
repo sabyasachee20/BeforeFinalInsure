@@ -1,0 +1,134 @@
+.renewbase {
+    position: absolute;
+    top: -1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.renewbody {
+    background-color: #BFBFFF;
+    height: 50vh;
+}
+
+.renewtop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 8rem;
+    background-color: white;
+    box-shadow: 10px 4px 4px 0px #00000040;
+}
+
+.renewcontent {
+    border: 2px #7171DE solid;
+    width: 40rem;
+    position: relative;
+    top: 0rem;
+    height: 34rem;
+    padding: 20px;
+}
+
+.renew-details {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    margin-top: 40px;
+}
+
+.renewheading {
+    background: #7171DE;
+    font-family: Plus Jakarta Sans;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+    margin: -20px;
+    border: 2px solid white;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.renewf1 {
+    display: flex;
+    justify-content: center;
+    column-gap: 1rem;
+}
+
+.renewf2 {
+    display: flex;
+    justify-content: center;
+    column-gap: 1rem;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 20.16px;
+    text-align: center;
+    color: #5353FF;
+}
+
+.renewf3 {
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.68px;
+    text-align: center;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.f5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 1rem;
+    align-items: center;
+}
+
+.f5 input {
+    height: 10%;
+    width: 8%;
+}
+
+.renewelements {
+    margin: 0px;
+}
+
+.renewf6 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.renewbutton1 {
+    width: 6rem;
+    /* margin-block: 0.5rem; */
+    text-align: center;
+    background-color: #5353FF;
+    color: white;
+    margin-top: 20px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.renewbutton1:hover {
+    background-color: white;
+    color: #5353FF;
+    border: 1px solid #5353FF;
+}
+
+.pic {
+    position: relative;
+    top: 12.3rem;
+    right: -70rem;
+}

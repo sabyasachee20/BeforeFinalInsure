@@ -1,0 +1,232 @@
+.base-policy {
+  position: absolute;
+  background-color: #BFBFFF;
+  height: 50vh;
+  width: 100%;
+}
+
+.top-policy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 8rem;
+  left: 30rem;
+  background-color: white;
+  box-shadow: 10px 4px 4px 0px #00000040;
+}
+
+.policy-details {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+
+.content-policy {
+  border: 2px #7171de solid;
+  width: 40rem;
+  position: relative;
+  top: 0rem;
+  height: 36rem;
+}
+
+.policyfilter-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.claimtableembedded{
+height: 7rem;
+}
+.claim-table-unique {
+  text-align: center;
+  width: 100%;
+  table-layout: auto;
+  border: black solid 2px;
+  border-collapse: collapse;
+  max-width: 553px;
+  margin: 0 auto;
+}
+
+.ctable-header-unique,
+.ctable-cell-unique {
+  border: black solid 2px;
+  border-collapse: collapse;
+}
+
+.no-claims {
+  text-align: center;
+  font-weight: bold;
+}
+.no-claimsintable {
+  text-align: center;
+  font-weight: bold;
+}
+
+.buttt {
+  display: flex;
+  justify-content: center;
+  margin-top: -8px;
+}
+
+.pdf2 {
+  display: flex;
+  justify-content: center;
+  column-gap: 1rem;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 20.16px;
+  text-align: center;
+  color: #5353ff;
+  margin-bottom: 20px;
+}
+
+.heading-policy {
+  background: #7171de;
+  font-family: Plus Jakarta Sans;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+  border: 2px solid white;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.f1-policy {
+  display: flex;
+  justify-content: center;
+  column-gap: 1rem;
+}
+
+.button1-policy {
+  width: 3.5rem;
+  margin-block: 0.5rem;
+  margin-top: 2rem;
+  margin-right: 25px;
+  font-family: Plus Jakarta Sans;
+  text-align: left;
+  color: #ffffff;
+  background: #2222e0;
+  border-radius: 5px;
+  padding-block: 8px;
+}
+
+.button1-policy:hover {
+  background-color: white;
+  color: #5353ff;
+  cursor: pointer;
+}
+
+.button1-policy-disabled {
+  width: 3.5rem;
+  margin-block: 0.5rem;
+  margin-top: 2rem;
+  margin-right: 25px;
+  font-family: Plus Jakarta Sans;
+  text-align: left;
+  color: #ffffff;
+  background: #2222e0;
+  border-radius: 5px;
+  padding-block: 8px;
+  cursor: not-allowed;
+  position: relative;
+}
+
+.button1-policy-disabled::after {
+  content: 'Come On EndDate';
+  position: absolute;
+  top: -2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+.button1-policy-disabled:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+.button2-policy-disabled {
+  width: 3.5rem;
+  margin-block: 0.5rem;
+  margin-top: 2rem;
+  margin-right: 25px;
+  font-family: Plus Jakarta Sans;
+  text-align: left;
+  color: #ffffff;
+  background: #2222e0;
+  border-radius: 5px;
+  padding-block: 8px;
+  cursor: not-allowed;
+  position: relative;
+}
+
+.button2-policy-disabled::after {
+  content: 'Cant Claim More';
+  position: absolute;
+  top: -2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+.button2-policy-disabled:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+.elements-policy {
+  margin: 0;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.pagination-unique {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.pagination-button-unique {
+  padding: 5px 10px;
+  margin: 0 5px;
+  background-color: #2222e0;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination-button-unique:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.pagination-button-unique:hover:not(:disabled) {
+  background-color: #5353ff;
+}
+.statusoption{
+  margin-left: 14px;
+}

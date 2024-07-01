@@ -1,0 +1,347 @@
+
+ 
+  .filteroptions{
+    margin-bottom:1%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+ 
+  .filteroptions button{
+      padding:1%;
+      margin-right: 1%;
+      background-color:  #8975b7;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+  }
+ 
+  .table tr{
+background-color: lavender;
+  }
+ 
+  .table {
+    border-collapse: collapse;
+  }
+ 
+  .table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+ 
+  .pagination{
+    text-align: center;
+    margin-top: 1%;
+  }
+ 
+  .pagination button{
+    background-color:lavender;
+     border: none;
+     cursor: pointer;
+  }
+ 
+  .table th,
+  .table td {
+    padding: 1%;
+    text-align: left;
+    text-align: center;
+  }
+ 
+  .table th {
+    background-color: #343a40;
+    color: white;
+  }
+ 
+  .table tbody tr:hover {
+    background-color: #ddd;
+  }
+  .purchase-details {
+    width: 80%;
+    margin-left: 8%;
+    margin-top: 3%;
+    background-color: #E7DDFF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+  .purchase-details h1 {
+    text-align: center;
+    color: #343a40;
+    margin-bottom: 0px;
+  }
+ 
+  .purchase-details p {
+    color: #495057;
+    font-size: 16px;
+    font-weight: 500;
+  }
+ 
+  .purchase-details button {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+  }
+ 
+  .purchase-details button:first-of-type {
+    background-color: #28a745;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+ 
+  .purchase-details button:first-of-type:hover {
+    background-color: #218838;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+ 
+  .purchase-details button:last-of-type {
+    background-color: #dc3545;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+ 
+  .purchase-details button:last-of-type:hover {
+    background-color: #c82333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+ 
+  /* Add some space between sections */
+  .purchase-details > * {
+    margin-bottom: 20px;
+  }
+ 
+  /* Add a horizontal line to separate sections */
+  .purchase-details > *:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 1%;
+    }
+   
+    .table {
+      width: 100%;
+     
+    }
+ 
+    .search-input {
+      width: 20%;
+      padding: 0.8%;
+      font-size: 100%;
+      margin-bottom: 1%;
+      border-radius: 4px;
+      margin-left:39%;
+      margin-top:1%;
+      text-align: center;
+    }
+ 
+    .table td button{
+        padding: 8px 16px;
+        background-color:#007bff;
+        color:#fff;
+        border:none;
+        border-radius:4px;
+        cursor:pointer;
+        box-shadow:0 2px 4px rgba(0, 0, 0, 0.1);
+        transition:background-color 0.3s ease;
+      }
+      .edit-profile-container {
+        margin-top: 8%;
+        margin-left: 23%;
+        width:50%;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background-color: lavender;
+      }
+     
+      .edit-profile-container h1 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+     
+      .edit-profile-container form {
+        display: flex;
+        flex-direction: column;
+      }
+     
+      .form-row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+        gap: 2;
+      }
+     
+      .form-row label {
+        flex: 1;
+        margin-right: 40px;
+        padding-right: 2%;
+   
+      }
+     
+      .form-row label:last-child {
+        margin-right: 0;
+      }
+     
+      .edit-profile-container label {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+      }
+     
+      .edit-profile-container input {
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 100%;
+      }
+     
+      .edit-profile-container button {
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #4CAF50;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        width:40%;
+        margin:auto
+      }
+     
+      .edit-profile-container button:hover {
+        background-color: #45a049;
+      }
+      .counts {
+        margin-top: 2%;
+        display: flex;
+        justify-content: space-between;
+    }
+   
+    .box {
+        width: 100%;
+        height: 5rem;
+        border-radius: 5%;
+        font-size: 130%;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 3%;
+        background-color: #2e27b7;
+        margin-right: 2%;
+        color: white;
+    }
+   
+    .chart{
+        width: 80%;
+        height: 40%;
+        margin: 0 auto;
+    }
+    .adminnavbar {
+        background-color: #E7DDFF;
+        width: 15%;
+        position: fixed;
+        height: 100vh;
+        margin-top: -67px;
+  }
+ 
+  .adminnavbar-list {
+ 
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+  }
+ 
+   .adminnavbar-list li {
+      display: flex;
+      padding: 5%;
+      color: black;
+      padding-left: 15%;
+  }
+  .adminnavbar-list li:hover {
+      background-color:white;
+  }
+ 
+  .adminnavbar-list li a {
+      display: block;
+      color: black;
+      text-decoration: none;
+  }
+ 
+  .adminnavbar-list li a:hover {
+      background-color: white;
+  }
+  .adminnavbar-list li svg {
+      margin-top: 4px;
+      margin-right: 10px;
+     
+  }
+ 
+.image-gallery {
+  display: flex; /* To display images in a row */
+  background-color: #8975b7;
+  margin: 3%;
+}
+ 
+.image-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  margin:2%;
+}
+ 
+.policydetail{
+  padding:3%;
+   text-align:center;
+}
+.page {
+  display: flex;
+  margin-top: 4.3%; /* Adjust based on header height */
+}
+ 
+.admincontent {
+  flex-grow: 1;
+  margin-left: 15%; /* Same as navbar width */
+  padding: 20px;
+  overflow: auto;
+}
+ 
+.userlogo{
+  position: absolute;
+  right: 9%;  
+}
+ 
+.adminname{
+position: absolute;
+right: 5%;
+ 
+}
+.appheader {
+  display: flex;
+  align-items: center;
+  background-color: #E7DDFF;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+ 
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.sidecontent{
+    margin-left: 17%;
+    width:80%;
+    margin-top: 10%;
+}

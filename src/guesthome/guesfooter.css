@@ -1,0 +1,244 @@
+.section2-footer {
+    /* Rectangle 12 */
+    position: absolute;
+    width: 1536px;
+    height: 349px;
+    left: 0px;
+    top: 380px;
+    background: #BFBFFF;
+}
+/* Add this to your guesfooter.css */
+
+  
+.section2-text-1 {
+    /* Modern Solutions for modern lives */
+    position: absolute;
+    width: 194.41px;
+    height: 39.81px;
+    left: 55px;
+    top: 20px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+}
+
+.section2-autoimage {
+    position: sticky;
+    width: 208.25px;
+    height: 128px;
+    left: 430px;
+    margin-top: 30px;
+}
+
+.section2-healthimage {
+    /* Health */
+    position: sticky;
+    width: 181px;
+    height: 128px;
+    left: 800px;
+    margin-top: 30px;
+}
+
+.section2-autotext {
+    position: sticky;
+    width: 239px;
+    height: 44px;
+    left: 417px;
+    margin-top: -15px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+}
+
+.section2-healthtext {
+    /* Drive Worry-Free: Your Auto Insurance Solution Starts Here! */
+    position: sticky;
+    left: 12.77%;
+    right: 10.22%;
+    bottom: 10%;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+}
+
+.section2-termtext {
+    /* Life’s Safeguard: Your Journey to financial Security Begins Here! */
+    position: sticky;
+    width: 233px;
+    height: 59px;
+    left: 1140px;
+    margin-top: -10px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+}
+
+.section2-termimage {
+    /* Family Meal */
+    position: sticky;
+    width: 181px;
+    height: 128px;
+    left: 1160px;
+    margin-top: 30px;
+}
+
+.section2-insurance2 {
+    /* Insurance */
+    position: absolute;
+    width: 265px;
+    height: 191px;
+    left: 66px;
+    top: 100px;
+}
+
+.section2-card-1 {
+    /* Rectangle 13 */
+    position: absolute;
+    width: 264.82px;
+    height: 236.19px;
+    left: 400px;
+    top: 70px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.section2-card-2 {
+    /* Rectangle 2 */
+    position: absolute;
+    width: 264.82px;
+    height: 236.19px;
+    left: 760px;
+    top: 70px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.section2-card-3 {
+    /* Rectangle 15 */
+    position: absolute;
+    width: 264.82px;
+    height: 236.19px;
+    left: 1120px;
+    top: 70px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.insurance-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(135deg, #e0e0e0, #ffffff);
+    padding: 30px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .insurance-modal-overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  
+  .insurance-close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    color: #888;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: color 0.3s, transform 0.3s;
+  }
+  
+  .insurance-close-button:hover {
+    color: #333;
+    transform: scale(1.1);
+  }
+  
+  .insurance-modal-content {
+    text-align: center;
+    color: #333;
+  }
+  
+  .insurance-modal-content h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .insurance-modal-content p {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .insurance-modal-content blockquote {
+    font-style: italic;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border-left: 5px solid #ccc;
+    color: #555;
+    max-width: 500px;
+    background: #f9f9f9;
+  }
+  
+  .insurance-modal-content cite {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #888;
+  }
+  
+  .insurance-modal-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .insurance-modal-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .insurance-signup-button {
+    background-color: #2222E0;
+    color: white;
+  }
+  
+  .insurance-signin-button {
+    background-color: #2222E0;
+    color: white;
+  }
+  
+  .insurance-modal-button:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+  }
+  
